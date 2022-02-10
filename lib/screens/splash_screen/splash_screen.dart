@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_app/utils/constants.dart';
 
 import 'getting_started.dart';
 
@@ -28,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/images/food.png'),
+            Image.asset(Constants.imageAssest('food.png')),
             const SizedBox(height: 8.0),
             const Text(
               "No waiting for food",
