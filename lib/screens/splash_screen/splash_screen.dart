@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/utils/constants.dart';
+import 'package:food_app/utils/util_functions.dart';
 
 import 'getting_started.dart';
 
@@ -15,8 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Future.delayed(const Duration(seconds: 5), () {
-      Navigator.push(context,
-          MaterialPageRoute(builder: (Context) => const GettingStarted()));
+      UtilFunctions.navigation(const GettingStarted(), context);
     });
   }
 
