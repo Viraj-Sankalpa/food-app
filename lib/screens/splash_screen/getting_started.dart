@@ -162,7 +162,7 @@ class BottomSection extends StatelessWidget {
           ),
           Positioned(
             bottom: 39,
-            left: 270,
+            left: 240,
             child: Row(
               children: [
                 ElevatedButton(
