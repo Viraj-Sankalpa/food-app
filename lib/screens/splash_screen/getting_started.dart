@@ -180,7 +180,9 @@ class BottomSection extends StatelessWidget {
                   ),
                 ),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    
+                  },
                   child: Text(
                     'Skip',
                     style: TextStyle(
